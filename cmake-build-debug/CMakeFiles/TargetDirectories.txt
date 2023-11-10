@@ -1,0 +1,5 @@
+/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/PhotoEdits.dir
+/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/PhotoEdits_autogen_timestamp_deps.dir
+/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/PhotoEdits_autogen.dir

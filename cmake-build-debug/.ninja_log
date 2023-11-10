@@ -1,0 +1,26 @@
+# ninja log v5
+96	1114	1699646795101039730	CMakeFiles/PhotoEdits.dir/main.cpp.o	817a16f2ca1aa590
+1	96	1699646794084359221	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+0	37	1699646937672982209	build.ninja	51b14bfae528d079
+10	988	1699646741456976344	CMakeFiles/PhotoEdits.dir/windoo.cpp.o	c38505c3355a6830
+1	96	1699646794084359221	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+1	96	1699646794084359221	PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+1020	1199	1699646741666979203	PhotoEdits	24ca7633f44cad45
+1	96	1699646794084359221	PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+96	977	1699646794964371201	CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o	b815f5c905f1eac7
+0	37	1699646937672982209	build.ninja	51b14bfae528d079
+1	93	1699646937769650194	PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+1	93	1699646937769650194	PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+1	93	1699646937769650194	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+1	93	1699646937769650194	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+93	1008	1699646938686329359	CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o	b815f5c905f1eac7
+93	1136	1699646938812997755	CMakeFiles/PhotoEdits.dir/windoo.cpp.o	c38505c3355a6830
+93	1150	1699646938829664649	CMakeFiles/PhotoEdits.dir/main.cpp.o	817a16f2ca1aa590
+1150	1345	1699646939019667238	PhotoEdits	24ca7633f44cad45
+1	9	1699646942579715782	PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+1	9	1699646942579715782	PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+1	9	1699646942579715782	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/timestamp	9d9cef0f7d3230b5
+1	9	1699646942579715782	/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/mocs_compilation.cpp	9d9cef0f7d3230b5
+10	979	1699646943549729011	CMakeFiles/PhotoEdits.dir/windoo.cpp.o	c38505c3355a6830
+10	1022	1699646943589729554	CMakeFiles/PhotoEdits.dir/main.cpp.o	817a16f2ca1aa590
+1022	1194	1699646943759731875	PhotoEdits	24ca7633f44cad45
