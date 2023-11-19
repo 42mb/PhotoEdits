@@ -1,7 +1,3 @@
-//
-// Created by archi on 10.11.23.
-//
-
 #ifndef PHOTOEDITS_WINDOO_HPP
 #define PHOTOEDITS_WINDOO_HPP
 
@@ -17,11 +13,28 @@ Q_OBJECT
 
 public:
     explicit windoo(QWidget *parent = nullptr);
+    void doEdits();
+
 
     ~windoo() override;
+private slots:
+
+    [[maybe_unused]] void on_pushButtonBrowse_clicked();
+
+    [[maybe_unused]] void on_greyButton_clicked();
+
+    [[maybe_unused]] void on_checkBoxChannelMixer_clicked();
+    [[maybe_unused]] void on_pushButtonChannelMixerReset_clicked();
+
+    [[maybe_unused]] void on_sliderChannelRed_valueChanged(int value);
+    [[maybe_unused]] void on_sliderChannelGreen_valueChanged(int value);
+    [[maybe_unused]] void on_sliderChannelBlue_valueChanged(int value);
+
+    [[maybe_unused]] [[maybe_unused]] void on_pushButtonSaveAs_clicked();
 
 private:
     Ui::windoo *ui;
+
 };
 
 

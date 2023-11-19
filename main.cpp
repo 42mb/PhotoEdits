@@ -11,6 +11,6 @@ int initWindow(int argc, char *argv[]) {
 }
 
 int main(int argc, char *argv[]) {
-   //initWindow(argc, argv);
-   std::cout<<"test";
+   initWindow(argc, argv);
+   std::cout<<"we done";
 }

@@ -73,6 +73,14 @@ build CMakeFiles/PhotoEdits.dir/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
   OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir
 
+build CMakeFiles/PhotoEdits.dir/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/Image.cpp || cmake_object_order_depends_target_PhotoEdits
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/PhotoEdits.dir/Image.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
+  OBJECT_DIR = CMakeFiles/PhotoEdits.dir
+  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PhotoEdits
@@ -81,7 +89,7 @@ build CMakeFiles/PhotoEdits.dir/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned
 #############################################
 # Link the executable PhotoEdits
 
-build PhotoEdits: CXX_EXECUTABLE_LINKER__PhotoEdits_Debug CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o CMakeFiles/PhotoEdits.dir/main.cpp.o CMakeFiles/PhotoEdits.dir/windoo.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || PhotoEdits_autogen PhotoEdits_autogen_timestamp_deps
+build PhotoEdits: CXX_EXECUTABLE_LINKER__PhotoEdits_Debug CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o CMakeFiles/PhotoEdits.dir/main.cpp.o CMakeFiles/PhotoEdits.dir/windoo.cpp.o CMakeFiles/PhotoEdits.dir/Image.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || PhotoEdits_autogen PhotoEdits_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.11  /usr/lib/libQt5Gui.so.5.15.11  /usr/lib/libQt5Core.so.5.15.11
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
@@ -139,7 +147,7 @@ build PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/PhotoEdits_autogen_timestamp_deps
 
-build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/moc /usr/bin/uic /usr/lib/libQt5Widgets.so.5.15.11
+build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/bin/uic /usr/lib/libQt5Core.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Widgets.so.5.15.11
 
 
 #############################################

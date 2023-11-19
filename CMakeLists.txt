@@ -16,7 +16,9 @@ find_package(Qt5 COMPONENTS
 add_executable(PhotoEdits main.cpp
         windoo.cpp
         windoo.hpp
-        windoo.ui)
+        windoo.ui
+        Image.cpp
+        Image.hpp)
 target_link_libraries(PhotoEdits
         Qt5::Core
         Qt5::Gui

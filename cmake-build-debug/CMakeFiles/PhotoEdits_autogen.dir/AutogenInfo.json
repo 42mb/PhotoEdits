@@ -84,6 +84,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/archi/Projects/PhotoEdits/Image.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Image.cpp",
+			null
+		],
+		[
 			"/home/archi/Projects/PhotoEdits/windoo.hpp",
 			"MU",
 			"EWIEGA46WW/moc_windoo.cpp",
@@ -140,6 +146,7 @@
 	"SETTINGS_FILE" : "/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/PhotoEdits_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/archi/Projects/PhotoEdits/Image.cpp", "MU", null ],
 		[ "/home/archi/Projects/PhotoEdits/main.cpp", "MU", null ],
 		[ "/home/archi/Projects/PhotoEdits/windoo.cpp", "MU", null ]
 	],

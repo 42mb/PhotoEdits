@@ -1,5 +1,7 @@
 PhotoEdits_autogen/timestamp: \
 	/home/archi/Projects/PhotoEdits/CMakeLists.txt \
+	/home/archi/Projects/PhotoEdits/Image.cpp \
+	/home/archi/Projects/PhotoEdits/Image.hpp \
 	/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake \
 	/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake \
 	/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake \
