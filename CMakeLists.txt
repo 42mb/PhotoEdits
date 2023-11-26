@@ -13,12 +13,12 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(PhotoEdits cmake-build-debug/src/main.cpp
-        cmake-build-debug/src/windoo.cpp
-        cmake-build-debug/src/windoo.hpp
-        cmake-build-debug/src/windoo.ui
-        cmake-build-debug/src/Image.cpp
-        cmake-build-debug/src/Image.hpp)
+add_executable(PhotoEdits src/main.cpp
+        src/windoo.cpp
+        src/windoo.hpp
+        src/windoo.ui
+        src/Image.cpp
+        src/Image.hpp)
 target_link_libraries(PhotoEdits
         Qt5::Core
         Qt5::Gui

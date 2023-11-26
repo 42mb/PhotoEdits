@@ -57,7 +57,7 @@ build CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
   OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen
 
-build CMakeFiles/PhotoEdits.dir/src/main.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/main.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/src/main.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/PhotoEdits.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
@@ -65,7 +65,7 @@ build CMakeFiles/PhotoEdits.dir/src/main.cpp.o: CXX_COMPILER__PhotoEdits_unscann
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
   OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/src
 
-build CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/windoo.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/src/windoo.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
@@ -73,7 +73,7 @@ build CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unsca
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
   OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/src
 
-build CMakeFiles/PhotoEdits.dir/src/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/Image.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/src/Image.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/PhotoEdits.dir/src/Image.cpp.o.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
@@ -131,7 +131,7 @@ build PhotoEdits_autogen_timestamp_deps: phony CMakeFiles/PhotoEdits_autogen_tim
 #############################################
 # Utility command for PhotoEdits_autogen
 
-build PhotoEdits_autogen: phony CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp PhotoEdits_autogen_timestamp_deps
+build PhotoEdits_autogen: phony CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/src/ui_windoo.h PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp PhotoEdits_autogen_timestamp_deps
 
 
 #############################################
@@ -147,13 +147,13 @@ build PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/PhotoEdits_autogen_timestamp_deps
 
-build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/lib/libQt5Widgets.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/uic
+build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/bin/uic /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Widgets.so.5.15.11
 
 
 #############################################
 # Phony custom command for CMakeFiles/PhotoEdits_autogen
 
-build CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen ${cmake_ninja_workdir}PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h: phony PhotoEdits_autogen/timestamp || PhotoEdits_autogen_timestamp_deps
+build CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/src/ui_windoo.h | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen ${cmake_ninja_workdir}PhotoEdits_autogen/include/src/ui_windoo.h: phony PhotoEdits_autogen/timestamp || PhotoEdits_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
