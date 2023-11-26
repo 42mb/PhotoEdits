@@ -84,15 +84,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/archi/Projects/PhotoEdits/Image.hpp",
+			"/home/archi/Projects/PhotoEdits/cmake-build-debug/src/Image.hpp",
 			"MU",
-			"EWIEGA46WW/moc_Image.cpp",
+			"OCZNM7QRBO/moc_Image.cpp",
 			null
 		],
 		[
-			"/home/archi/Projects/PhotoEdits/windoo.hpp",
+			"/home/archi/Projects/PhotoEdits/cmake-build-debug/src/windoo.hpp",
 			"MU",
-			"EWIEGA46WW/moc_windoo.cpp",
+			"OCZNM7QRBO/moc_windoo.cpp",
 			null
 		]
 	],
@@ -146,9 +146,21 @@
 	"SETTINGS_FILE" : "/home/archi/Projects/PhotoEdits/cmake-build-debug/CMakeFiles/PhotoEdits_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/archi/Projects/PhotoEdits/Image.cpp", "MU", null ],
-		[ "/home/archi/Projects/PhotoEdits/main.cpp", "MU", null ],
-		[ "/home/archi/Projects/PhotoEdits/windoo.cpp", "MU", null ]
+		[
+			"/home/archi/Projects/PhotoEdits/cmake-build-debug/src/Image.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/archi/Projects/PhotoEdits/cmake-build-debug/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/archi/Projects/PhotoEdits/cmake-build-debug/src/windoo.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

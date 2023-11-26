@@ -52,34 +52,34 @@ build cmake_object_order_depends_target_PhotoEdits: phony || PhotoEdits_autogen 
 build CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -fPIC
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
   OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen
 
-build CMakeFiles/PhotoEdits.dir/main.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/main.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/main.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/PhotoEdits.dir/main.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -fPIC
+  DEP_FILE = CMakeFiles/PhotoEdits.dir/src/main.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
-  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir
+  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/src
 
-build CMakeFiles/PhotoEdits.dir/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/windoo.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/windoo.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/PhotoEdits.dir/windoo.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -fPIC
+  DEP_FILE = CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
-  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir
+  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/src
 
-build CMakeFiles/PhotoEdits.dir/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/Image.cpp || cmake_object_order_depends_target_PhotoEdits
+build CMakeFiles/PhotoEdits.dir/src/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_Debug /home/archi/Projects/PhotoEdits/cmake-build-debug/src/Image.cpp || cmake_object_order_depends_target_PhotoEdits
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/PhotoEdits.dir/Image.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -fPIC
+  DEP_FILE = CMakeFiles/PhotoEdits.dir/src/Image.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/archi/Projects/PhotoEdits/cmake-build-debug/PhotoEdits_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
-  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir
+  OBJECT_FILE_DIR = CMakeFiles/PhotoEdits.dir/src
 
 
 # =============================================================================
@@ -89,7 +89,7 @@ build CMakeFiles/PhotoEdits.dir/Image.cpp.o: CXX_COMPILER__PhotoEdits_unscanned_
 #############################################
 # Link the executable PhotoEdits
 
-build PhotoEdits: CXX_EXECUTABLE_LINKER__PhotoEdits_Debug CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o CMakeFiles/PhotoEdits.dir/main.cpp.o CMakeFiles/PhotoEdits.dir/windoo.cpp.o CMakeFiles/PhotoEdits.dir/Image.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || PhotoEdits_autogen PhotoEdits_autogen_timestamp_deps
+build PhotoEdits: CXX_EXECUTABLE_LINKER__PhotoEdits_Debug CMakeFiles/PhotoEdits.dir/PhotoEdits_autogen/mocs_compilation.cpp.o CMakeFiles/PhotoEdits.dir/src/main.cpp.o CMakeFiles/PhotoEdits.dir/src/windoo.cpp.o CMakeFiles/PhotoEdits.dir/src/Image.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || PhotoEdits_autogen PhotoEdits_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.11  /usr/lib/libQt5Gui.so.5.15.11  /usr/lib/libQt5Core.so.5.15.11
   OBJECT_DIR = CMakeFiles/PhotoEdits.dir
@@ -131,7 +131,7 @@ build PhotoEdits_autogen_timestamp_deps: phony CMakeFiles/PhotoEdits_autogen_tim
 #############################################
 # Utility command for PhotoEdits_autogen
 
-build PhotoEdits_autogen: phony CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/ui_windoo.h PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp PhotoEdits_autogen_timestamp_deps
+build PhotoEdits_autogen: phony CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp PhotoEdits_autogen_timestamp_deps
 
 
 #############################################
@@ -147,13 +147,13 @@ build PhotoEdits_autogen/timestamp PhotoEdits_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/PhotoEdits_autogen_timestamp_deps
 
-build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/bin/uic /usr/lib/libQt5Core.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Widgets.so.5.15.11
+build CMakeFiles/PhotoEdits_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/lib/libQt5Widgets.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/uic
 
 
 #############################################
 # Phony custom command for CMakeFiles/PhotoEdits_autogen
 
-build CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/ui_windoo.h | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen ${cmake_ninja_workdir}PhotoEdits_autogen/include/ui_windoo.h: phony PhotoEdits_autogen/timestamp || PhotoEdits_autogen_timestamp_deps
+build CMakeFiles/PhotoEdits_autogen PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h | ${cmake_ninja_workdir}CMakeFiles/PhotoEdits_autogen ${cmake_ninja_workdir}PhotoEdits_autogen/include/cmake-build-debug/src/ui_windoo.h: phony PhotoEdits_autogen/timestamp || PhotoEdits_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
