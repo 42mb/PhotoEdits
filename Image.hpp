@@ -3,41 +3,66 @@
 #include <QImage>
 #include <utility>
 #include <QCheckBox>
+#include "windoo.hpp"
 
 
 class Image {
 
-public:
+private:
     struct {
         int Red{};
         int Green{};
         int Blue{};
     }colorChannelSlider;
 
+
     QImage m_img{};
     QImage m_imgOriginal{};
 
     bool colorChannelMixerActive {true};
-    bool isLoaded {false};
+    bool loadComplete{false};
 
-    void setGreyscale();
+    friend windoo;
 
-    void initImage(QImage);
+public:
+  Image()= default;
+  Image(const Image&) = delete;                     //copy constructor
+  Image(Image &&) = delete;                         //move constructor
+  Image& operator=(const Image&) = delete;          //copy assignment
+  Image& operator=(const Image&&) = delete;         //move assigment
+  ~Image()= default;
 
-    [[maybe_unused]] [[nodiscard]] QImage getImage() const;
+    [[nodiscard]] bool isLoaded() const {
+        return loadComplete;
+    }
+    void setAsLoaded() {
+        loadComplete = true;
+    }
+    void checkBoxColorChannelMixer(bool checkBox) {
+        colorChannelMixerActive = checkBox;
+    }
+   void editColorChannelSliderRed(int redValue) {
+        colorChannelSlider.Red = redValue;
+    }
+   void editColorChannelSliderGreen(int greenValue) {
+        colorChannelSlider.Green= greenValue;
+    }
+   void editColorChannelSliderBlue(int blueValue) {
+        colorChannelSlider.Blue= blueValue;
+    }
+   void setGreyscale();
 
-    [[maybe_unused]] [[nodiscard]] QImage getImageOriginal() const;
+   void initImage(QImage);
 
-     static int colorBoundChecker(int);
+   static int colorBoundChecker(int);
 
-    ////////////////////////////////////
-    //functions to run in pixelpipeline:
-    void colorChannelMixer();
+  ////////////////////////////////////
+  //functions to run in pixelpipeline:
+   void colorChannelMixer();
 
-    ////////////////////////////////////
-    void runPixelpipeline();
-
-
+  //END functions to run in pixelpipeline
+  ////////////////////////////////////
+   void runPixelpipeline();
 
 };
 

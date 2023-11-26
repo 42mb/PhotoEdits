@@ -30,7 +30,7 @@ private slots:
     [[maybe_unused]] void on_sliderChannelGreen_valueChanged(int value);
     [[maybe_unused]] void on_sliderChannelBlue_valueChanged(int value);
 
-    [[maybe_unused]] [[maybe_unused]] void on_pushButtonSaveAs_clicked();
+    [[maybe_unused]]  void on_pushButtonSaveAs_clicked();
 
 private:
     Ui::windoo *ui;

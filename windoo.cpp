@@ -1,5 +1,3 @@
-// You may need to build the project (run Qt uic code generator) to get "ui_windoo.h" resolved
-
 #include "windoo.hpp"
 #include "ui_windoo.h"
 #include <QFileDialog>
@@ -21,19 +19,11 @@ Image image;
 windoo::windoo(QWidget *parent) :
         QWidget(parent), ui(new Ui::windoo) {
     ui->setupUi(this);
-
-
-//    connect(ui->sliderChannelRed,SIGNAL(valueChanged(int)),this,SLOT(on_sliderChannelRed_valueChanged(int)));
-//    connect(ui->sliderChannelGreen,SIGNAL(valueChanged(int)),this,SLOT(on_sliderChannelGreen_valueChanged(int)));
-//    connect(ui->sliderChannelBlue,SIGNAL(valueChanged(int)),this,SLOT(on_sliderChannelBlue_valueChanged(int)));
-
 }
 
 windoo::~windoo() {
     delete ui;
 }
-
-
 
 [[maybe_unused]] void windoo::on_pushButtonBrowse_clicked() {
 
@@ -44,14 +34,14 @@ windoo::~windoo() {
        QMessageBox::information(this, "...", file_name);
        QImage img(file_name);
        image.initImage(img);
-       image.isLoaded = true;
+       image.setAsLoaded();
        doEdits();
    }
 
 }
 
 [[maybe_unused]] void windoo::doEdits() {
-    if (image.isLoaded) {
+    if (image.isLoaded()) {
         image.runPixelpipeline();
         QPixmap pix = QPixmap::fromImage(image.m_img);
         ui->labelPic->setPixmap(pix.scaled(ui->labelPic->width(), ui->labelPic->height(), Qt::KeepAspectRatio));
@@ -59,33 +49,34 @@ windoo::~windoo() {
 }
 
 [[maybe_unused]] void windoo::on_checkBoxChannelMixer_clicked() {
-    image.colorChannelMixerActive =   ui->checkBoxChannelMixer->checkState();
+    //image.checkBoxColorChannelMixer(ui->checkBoxChannelMixer->checkState());
+    image.checkBoxColorChannelMixer(ui->checkBoxChannelMixer->checkState());
     doEdits();
 }
 
 [[maybe_unused]] void windoo::on_pushButtonChannelMixerReset_clicked() {
-    image.colorChannelSlider.Red   = 0;
-    image.colorChannelSlider.Green = 0;
-    image.colorChannelSlider.Blue  = 0;
+    image.editColorChannelSliderRed(0);
+    image.editColorChannelSliderGreen(0);
+    image.editColorChannelSliderBlue(0);
     ui->windoo::sliderChannelRed->setValue(0);
     ui->windoo::sliderChannelGreen->setValue(0);
     ui->windoo::sliderChannelBlue->setValue(0);
     //TODO connect slider to valuebox and add exponential graph to slider
     doEdits();
 }
-
+// vim d#   d$    d^
 [[maybe_unused]] void windoo::on_sliderChannelRed_valueChanged(int value) {
-    image.colorChannelSlider.Red = value;
+    image.editColorChannelSliderRed(value);
     doEdits();
 }
 
 [[maybe_unused]] void windoo::on_sliderChannelGreen_valueChanged(int value) {
-    image.colorChannelSlider.Green = value;
+    image.editColorChannelSliderGreen(value);
     doEdits();
 }
 
 [[maybe_unused]] void windoo::on_sliderChannelBlue_valueChanged(int value) {
-    image.colorChannelSlider.Blue = value;
+    image.editColorChannelSliderBlue(value);
     doEdits();
 }
 

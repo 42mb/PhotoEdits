@@ -9,14 +9,6 @@ void Image::initImage(QImage img) {
     m_imgOriginal = m_img;
 }
 
-[[maybe_unused]] QImage Image::getImage() const {
-    return m_img;
-}
-
-[[maybe_unused]] QImage Image::getImageOriginal() const {
-    return m_imgOriginal;
-}
-
 void Image::runPixelpipeline() {
 
     m_img = m_imgOriginal;
@@ -79,3 +71,5 @@ void Image::setGreyscale() {
     }
 
 }
+
+
