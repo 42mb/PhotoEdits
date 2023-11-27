@@ -25,7 +25,7 @@ void Image::runPixelpipeline() {
 }
 
 
-int Image::colorBoundChecker(int sum) {
+int Image::colorBoundChecker(int const sum) {
            if   (sum > 255) {   return 255;
     } else if   (sum <   0) {   return 0;
     } else {                    return sum;

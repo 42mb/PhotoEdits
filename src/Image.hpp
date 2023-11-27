@@ -10,9 +10,7 @@ class Image {
 
 private:
     struct {
-        int Red{};
-        int Green{};
-        int Blue{};
+        int Red{}, Green{}, Blue{};
     }colorChannelSlider;
 
 
